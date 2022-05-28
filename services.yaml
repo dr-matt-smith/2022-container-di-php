@@ -1,0 +1,6 @@
+services:
+  Database:
+    class:     \Mattsmithdev\Database
+  ProductRepository:
+    class:     \Mattsmithdev\ProductRepository
+    arguments: ["@Database"]

@@ -1,0 +1,15 @@
+{
+  "autoload":{
+    "psr-4":{
+      "Mattsmithdev\\":"src"
+    }
+  },
+  "scripts":{
+    "run":"php -S localhost:8001 -t ./web"
+  },
+  "require": {
+    "symfony/dependency-injection": "^6.1",
+    "symfony/yaml": "^6.1",
+    "symfony/config": "^6.1"
+  }
+}
